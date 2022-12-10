@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+# Python files
+**__pycache__
+
 # Compiled Object files
 *.slo
 *.lo
@@ -30,3 +33,14 @@
 *.exe
 *.out
 *.app
+
+# ThirdParty & vendors
+
+# Binaries
+**/bin/
+**/bin-int/
+Makefile
+
+# Editor & Platform Specific
+.vscode/
+**.DS_Store

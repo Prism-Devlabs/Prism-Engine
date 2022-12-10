@@ -11,10 +11,11 @@ repos:
       - id: pretty-format-json
       - id: check-added-large-files
       - id: detect-private-key
+      - id: check-ast
 
   - repo: https://github.com/pocc/pre-commit-hooks
-    rev: "v1.3.5"
+    rev: v1.3.5
     hooks:
       - id: clang-format
-        args: [--style=Webkit]
+        args: [--style=Webkit, --sort-includes=false]
       - id: cppcheck

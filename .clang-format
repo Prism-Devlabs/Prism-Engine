@@ -1,5 +1,5 @@
 ---
-BasedOnStyle: Microsoft
+BasedOnStyle: Webkit
 Language: Cpp
 Standard: Latest
 SortIncludes: 'false'
