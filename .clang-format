@@ -1,0 +1,8 @@
+---
+BasedOnStyle: Microsoft
+Language: Cpp
+Standard: Latest
+SortIncludes: 'false'
+SortUsingDeclarations: 'false'
+
+...
