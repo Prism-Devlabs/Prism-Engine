@@ -3,14 +3,14 @@ include "Dependencies.lua"
 
 workspace "PrismEngine"
 	architecture "x86_64"
-    startproject "PrismEditor"
+  startproject "PrismEditor"
 
-    configurations
-    {
-        "Debug",
-        "Release",
-        "Dist"
-    }
+  configurations
+  {
+		"Debug",
+		"Release",
+    "Dist"
+  }
 
 	solution_items
 	{
