@@ -16,10 +16,16 @@ to clone the necessary submodules.
 
 ## How to build Prism?
 
-After cloning the repository first download [premake](https://premake.github.io/download/)
-and place it inside `vendor/premake/bin`.
+After cloning the repository install python and run this command from project's root location.
 
-<h4>Building Prism on Mac</h4>
+```
+python3 scripts/setup.py
+```
+
+If you error related to premake then download [premake](https://premake.github.io/download/) and place it inside `vendor/premake/bin` and then run the platform specific script from scripts folder.
+
+<h3>Things to do before Building and Pushing Prism</h3>
+<h4>Prism on Mac</h4>
 
 Install the following packages with brew.
 
@@ -27,10 +33,10 @@ Install the following packages with brew.
 brew install cppcheck clang-format gcc
 ```
 
-<h4>Building Prism on Windows</h4>
+<h4>Prism on Windows</h4>
 
 **PROJECT IS UNDERDEVELOPMENT AND HASN'T BEEN TESTED ON LINUX!!**
 
-<h4>Building Prism on Linux</h4>
+<h4>Prism on Linux</h4>
 
 **PROJECT IS UNDERDEVELOPMENT AND HASN'T BEEN TESTED ON LINUX!!**
